@@ -26,7 +26,7 @@ Please save the installation of [pyflow](https://github.com/pathak22/pyflow) und
 
 This code has various dependencies, some are listed in **Prerequisites** section. Code is a bit slow due to some data preprocessing steps, mainly optical flow calculation ([pyflow](https://github.com/pathak22/pyflow) is slow but gives better accuracy compared to others). You can use any other package to calculate the optical flow (which might be faster but keep in mind the accuracy may vary due to nose in optical flow calculation!) and save the optical flow as a grayscale image in a specific format described in the **Example** section.
 
-We have used three fold cross-validation for our evaluation. There are six **cnn (three spatial and three motion net)** models in `"model/cnn_net/"` folder and for each **spatial & motion net** there are two **svm (for two diffrent feature pooling: avg & max)** models in `"model/svm/"`. The test script use default **cnn & svm** model trained on 1st fold (in three fold) data. To change the model, please see the different parameters option in the **Example** section.    
+We have used three fold cross-validation for our evaluation. There are six **cnn (three spatial and three motion net)** models (please download all the [models](https://drive.google.com/drive/folders/1jJJYeTYmUoyPj_7ee5VPz39TOf-Qw6th?usp=sharing)) in `"model/cnn_net/"` folder and for each **spatial & motion net** there are two **svm (for two diffrent feature pooling: avg & max)** models in `"model/svm/"`. The test script use default **cnn & svm** model trained on 1st fold (in three fold) data. To change the model, please see the different parameters option in the **Example** section.    
 
 # Examples:
 
