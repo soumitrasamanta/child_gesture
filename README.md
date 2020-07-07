@@ -1,6 +1,6 @@
 # Child Gesture Recognition
 
-This is test code for our CogSci-2020 paper:
+This repository contains a test code for our CogSci-2020 paper:
 
     Soumitra Samanta, Colin Bannard, Julian Pine and The Language05 Team
     "Can Automated Gesture Recognition Support the Study of Child Language Development?"
