@@ -33,19 +33,19 @@ We have used three fold cross-validation for our evaluation. There are six **cnn
 To see different parameters option, from a shell (Bash, Bourne, or else) run:
 
 ```bash
-python ss_segment_child_gesture.py -h
+python segment_child_gesture.py -h
 ```
 
 To test on a particular video file (say `"my_video.mp4"`), from a shell (Bash, Bourne, or else) run the following script (slow due to optical flow calculation):
 
 ```bash
-python ss_segment_child_gesture.py --input_video_filename my_video.mp4
+python segment_child_gesture.py --input_video_filename my_video.mp4
 ```
 
 To test on multiple video files, put all the video files in a folder (say all the files are in `"data/"` folder). From a shell (Bash, Bourne, or else) run the following script (slow due to optical flow calculation):
 
 ```bash
-python ss_segment_child_gesture.py --input_video_folder data/
+python segment_child_gesture.py --input_video_folder data/
 ```
 
 If you have preprocessed data ( the video file in converted into images and calculated the optical flow), then please save the preprocessed data according to the following convention (for simplicity let your video file name is `"my_video.mp4"`) :
@@ -56,7 +56,7 @@ If you have preprocessed data ( the video file in converted into images and calc
 Then from a shell (Bash, Bourne, or else) run the following script:
 
 ```bash
-python ss_segment_child_gesture.py --input_video_filename my_video.mp4 --input_images_path data/images/ --input_images_path data/optical_flow/
+python segment_child_gesture.py --input_video_filename my_video.mp4 --input_images_path data/images/ --input_images_path data/optical_flow/
 ```
 
 If you find the code useful for your research, please cite our paper:
