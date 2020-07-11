@@ -18,7 +18,7 @@ This is test code for child gesture recognition. Here we have considered 12 diff
 - [pyflow](https://github.com/pathak22/pyflow)
 - scikit-learn interface based [thundersvm](https://github.com/Xtra-Computing/thundersvm/tree/master/python)
 
-Please save the installation of [pyflow](https://github.com/pathak22/pyflow) under `"third_party_libs/optical_flow/pyflow/"` and [thundersvm](https://github.com/Xtra-Computing/thundersvm/tree/master/python) under `"third_party_libs/svm/thundersvm/thundersvm_cpu/"` (if you are using cpu version of [thundersvm](https://github.com/Xtra-Computing/thundersvm/tree/master/python)) or  `"third_party_libs/svm/thundersvm/thundersvm_gpu/"` (if you are using gpu version of [thundersvm](https://github.com/Xtra-Computing/thundersvm/tree/master/python)). 
+Please save the installation of [pyflow](https://github.com/pathak22/pyflow) under `"third_party_libs/optical_flow/pyflow/"` and [thundersvm](https://github.com/Xtra-Computing/thundersvm/tree/master/python) under `"third_party_libs/svm/thundersvm/thundersvm/"`. 
 
 **Special note** for [pyflow](https://github.com/pathak22/pyflow) installation: you can off some default print statements (on the screen) by editing `"bool OpticalFlow::IsDisplay=false;"` at **line no 13** in [OpticalFlow.cpp](https://github.com/pathak22/pyflow/blob/master/src/OpticalFlow.cpp) during the pyflow installation. 
 

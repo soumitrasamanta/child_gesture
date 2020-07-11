@@ -19,8 +19,7 @@ import sys
 import torch
 
 sys.path.insert(0, 'third_party_libs/optical_flow/pyflow/')# for optical flow
-sys.path.insert(0, 'third_party_libs/svm/thundersvm/thundersvm_gpu/python/')# for gpu based SVM
-# sys.path.insert(0, 'third_party_libs/svm/thundersvm/thundersvm_cpu/python/')# for cpu based SVM
+sys.path.insert(0, 'third_party_libs/svm/thundersvm/python/')# for gpu based SVM
 
 from data_utils import *
 from model_utils import *
